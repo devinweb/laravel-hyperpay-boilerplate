@@ -16,3 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+Route::get('hyperpay/checkout', 'HyperPayPaymentController@checkout')->name('checkout');
+Route::post('hyperpay/payment', 'HyperPayPaymentController@payment')->name('payment');
+Route::post('hyperpay/payment-status', 'HyperPayPaymentController@paymentStatus')->name('payment-status');
+Route::get('hyperpay/finalize', 'HyperPayPaymentController@finalize')->name('finalize');
