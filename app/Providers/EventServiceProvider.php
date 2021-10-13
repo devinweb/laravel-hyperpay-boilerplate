@@ -21,6 +21,9 @@ class EventServiceProvider extends ServiceProvider
          'Devinweb\LaravelHyperpay\Events\SuccessTransaction' => [
             'App\Listeners\TransactionSuccessListener',
         ],
+         'Devinweb\LaravelHyperpay\Events\FailTransaction' => [
+            'App\Listeners\TransactionFailListener',
+        ],
     ];
 
     /**

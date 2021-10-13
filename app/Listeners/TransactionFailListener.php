@@ -5,7 +5,8 @@ namespace App\Listeners;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Support\Facades\Log;
-class TransactionSuccessListener
+
+class TransactionFailListener
 {
     /**
      * Create the event listener.
@@ -27,6 +28,6 @@ class TransactionSuccessListener
     {
         $hyperpay_data =  $event->transaction['hyperpay_data'];
 
-        Log::info(['success_transation' =>$hyperpay_data]);
+        Log::info(['failed_transation' =>$hyperpay_data]);
     }
 }
