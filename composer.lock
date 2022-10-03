@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bb82182aa00ce38d4edd217b7134e8d9",
+    "content-hash": "acd190ed633d31b7dcb695438aeebc48",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -124,16 +124,16 @@
         },
         {
             "name": "devinweb/laravel-hyperpay",
-            "version": "v1.0.2",
+            "version": "v1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/devinweb/laravel-hyperpay.git",
-                "reference": "08a4cd35240443359807555acf20de0cebb8329d"
+                "reference": "708fc822898090940c802bfa0014e0d2c6f22433"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/devinweb/laravel-hyperpay/zipball/08a4cd35240443359807555acf20de0cebb8329d",
-                "reference": "08a4cd35240443359807555acf20de0cebb8329d",
+                "url": "https://api.github.com/repos/devinweb/laravel-hyperpay/zipball/708fc822898090940c802bfa0014e0d2c6f22433",
+                "reference": "708fc822898090940c802bfa0014e0d2c6f22433",
                 "shasum": ""
             },
             "require": {
@@ -179,9 +179,9 @@
             ],
             "support": {
                 "issues": "https://github.com/devinweb/laravel-hyperpay/issues",
-                "source": "https://github.com/devinweb/laravel-hyperpay/tree/v1.0.2"
+                "source": "https://github.com/devinweb/laravel-hyperpay/tree/v1.2.0"
             },
-            "time": "2021-10-06T21:15:15+00:00"
+            "time": "2022-06-30T11:51:37+00:00"
         },
         {
             "name": "doctrine/inflector",
@@ -7489,5 +7489,5 @@
         "php": "^7.2.5|^8.0"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.1.0"
+    "plugin-api-version": "2.3.0"
 }
